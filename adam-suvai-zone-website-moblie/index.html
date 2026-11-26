@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#161210" />
+  <title>Adam Suvai Zone | Heritage South Indian Restaurant &amp; Catering — T. Nagar, Chennai</title>
+  <meta name="description" content="Adam Suvai Zone — Heritage South Indian fine dining, authentic Seeraga Samba Biryanis, Three Combo Menus, Party Orders &amp; Event Catering at 36, Rangan St, T. Nagar, Chennai." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Hospitality Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div>
+        <span>📍 36, Rangan St, T. Nagar, Chennai</span>
+        <span style="margin-left:10px;">• 100% Halal</span>
+      </div>
+      <div>
+        <a href="tel:04424352299">📞 044 24352299</a>
+        <span style="margin:0 6px;">|</span>
+        <a href="tel:+919498033636">📱 94980 33636</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand-lockup">
+        <img src="assets/logo.svg" alt="Adam Suvai Zone Logo" class="brand-logo-img" />
+        <div class="brand-text">
+          <h1>ADAM SUVAI ZONE</h1>
+          <span>Heritage South Indian</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#combos">3 Combo Menus</a></li>
+        <li><a href="#menu">Full Menu</a></li>
+        <li><a href="#catering">Catering &amp; Events</a></li>
+        <li><a href="#location">Location &amp; Links</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener" class="btn btn-zomato desktop-only-btn">Zomato</a>
+        <a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener" class="btn btn-swiggy desktop-only-btn">Swiggy</a>
+        <button class="cart-pill" onclick="openDrawer()" aria-label="Open Order Estimate">
+          🧾 <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-Down Navigation Panel -->
+    <nav class="mobile-nav-panel" id="mobileNavPanel" aria-label="Mobile Navigation">
+      <div class="container">
+        <ul class="mobile-nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#combos">01–03. Three Combo Menus</a></li>
+          <li><a href="#menu">Full Restaurant Menu</a></li>
+          <li><a href="#catering">Catering &amp; Party Orders</a></li>
+          <li><a href="#location">Location, Map &amp; Socials</a></li>
+        </ul>
+        <div class="mobile-nav-ctas">
+          <a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener" class="btn btn-zomato">Order on Zomato</a>
+          <a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener" class="btn btn-swiggy">Order on Swiggy</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">T. Nagar, Chennai • Authentic Culinary Heritage</span>
+        <h2>Royal South Indian Flavours &amp; <em>Signature Dum Biryanis</em></h2>
+        <p>
+          Slow-simmered Seeraga Samba Mutton Biryanis, coastal seafood specialties, Arabian charcoal grills, and curated Veg, Non-Veg &amp; Dinner Combo feasts—crafted for dine-in, home delivery, and grand party catering.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="#combos" class="btn btn-gold">3 Combo Menus</a>
+          <a href="#menu" class="btn btn-outline-gold">Full Menu</a>
+          <a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener" class="btn btn-zomato">Order Zomato</a>
+          <a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener" class="btn btn-swiggy">Order Swiggy</a>
+        </div>
+
+        <div class="hero-trust-row">
+          <span>✦ 100% Halal Kitchen</span>
+          <span>✦ Party Orders Undertaken</span>
+          <span>✦ T. Nagar Delivery</span>
+        </div>
+      </div>
+
+      <div class="hero-crest-card">
+        <img src="assets/halal-badge.svg" alt="100% Halal Certified" class="hero-halal-seal" />
+        <img src="assets/logo.svg" alt="Adam Suvai Zone Heritage South Indian Emblem" class="hero-crest-logo" />
+        <h3>ADAM SUVAI ZONE</h3>
+        <p>HERITAGE SOUTH INDIAN • EST. CHENNAI</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overlapping Concierge Reservation & Party Bar -->
+  <div class="container concierge-bar-wrap">
+    <form class="concierge-bar" id="conciergeForm">
+      <div class="field-group">
+        <label for="cService">Booking Type</label>
+        <select id="cService">
+          <option value="Family Table Reservation">Family Table Reservation</option>
+          <option value="Party Order / Bulk Combo">Party Order / Bulk Combo</option>
+          <option value="Wedding & Event Catering">Wedding &amp; Event Catering</option>
+          <option value="Corporate Lunch Boxes">Corporate Lunch Boxes</option>
+        </select>
+      </div>
+      <div class="field-group">
+        <label for="cDate">Preferred Date</label>
+        <input type="date" id="cDate" required />
+      </div>
+      <div class="field-group">
+        <label for="cGuests">Guests / Plates</label>
+        <input type="number" id="cGuests" min="1" value="4" required />
+      </div>
+      <div class="field-group">
+        <label for="cPhone">Your Mobile Number</label>
+        <input type="tel" id="cPhone" placeholder="e.g. 98400 XXXXX" required />
+      </div>
+      <button type="submit" class="btn btn-gold">Book via WhatsApp</button>
+    </form>
+  </div>
+
+  <!-- Three Types of Combo Menus -->
+  <section id="combos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Curated Value Feasts</span>
+        <h2>Three Signature Combo Menus</h2>
+        <div class="gold-divider"></div>
+        <p style="color:var(--text-muted);">
+          Swipe or tap to switch between Veg Combos, Non-Veg Combos, and Dinner Combos.
+        </p>
+      </div>
+
+      <div class="combo-tabs">
+        <button class="combo-tab-btn active" data-combo="all">All 3 Types (12)</button>
+        <button class="combo-tab-btn" data-combo="veg">01. Veg Combos</button>
+        <button class="combo-tab-btn" data-combo="nonveg">02. Non-Veg Combos</button>
+        <button class="combo-tab-btn" data-combo="dinner">03. Dinner Combos</button>
+      </div>
+
+      <div class="combo-grid" id="comboGrid"></div>
+    </div>
+  </section>
+
+  <!-- Complete Restaurant Menu -->
+  <section id="menu" class="section section-sand">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">À La Carte Culinary Collection</span>
+        <h2>Complete Restaurant Menu</h2>
+        <div class="gold-divider"></div>
+        <p style="color:var(--text-muted);">
+          Filter by dietary preference, swipe categories, or tap <strong>+ Add</strong> to build an instant party or takeaway estimate.
+        </p>
+      </div>
+
+      <div class="menu-controls">
+        <input type="search" id="menuSearchInput" class="menu-search" placeholder="Search biryani, chicken 65, prawn, parotta..." />
+        <div class="diet-filters">
+          <button class="diet-btn active" data-diet="all">All</button>
+          <button class="diet-btn" data-diet="veg">🟢 Veg</button>
+          <button class="diet-btn" data-diet="egg">🟡 Egg</button>
+          <button class="diet-btn" data-diet="nonveg">🔴 Non-Veg</button>
+        </div>
+      </div>
+
+      <div class="category-pills" id="categoryPills"></div>
+
+      <div id="menuContainer"></div>
+      <p style="text-align:center; font-size:0.78rem; color:var(--text-muted); margin-top:16px;">
+        *GST as applicable • *Terms &amp; Conditions Apply
+      </p>
+    </div>
+  </section>
+
+  <!-- Catering & Events Section -->
+  <section id="catering" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Party Orders Undertaken</span>
+        <h2>Bespoke Catering &amp; Celebrations</h2>
+        <div class="gold-divider"></div>
+        <p style="color:#D7CFC3;">
+          From intimate family milestones to 500+ guest weddings and corporate events across Chennai.
+        </p>
+      </div>
+
+      <div class="catering-grid">
+        <div class="catering-tiers">
+          <div class="tier-card">
+            <h3>01. Corporate &amp; Executive Meal Boxes</h3>
+            <p style="color:#D7CFC3; font-size:0.9rem;">
+              Individually packed Veg Meals Combos (Rs. 179), Chicken Meals Combos (Rs. 209), and Biryani Combos delivered across T. Nagar, Nungambakkam, Guindy &amp; Anna Salai.
+            </p>
+          </div>
+          <div class="tier-card">
+            <h3>02. Wedding &amp; Nikah Royal Biryani Feasts</h3>
+            <p style="color:#D7CFC3; font-size:0.9rem;">
+              Live Dum Seeraga Samba Mutton Biryani, Chicken 65, Mutton Kola Urundai, Bread Halwa, and traditional South Indian service staff.
+            </p>
+          </div>
+          <div class="tier-card">
+            <h3>03. Birthday &amp; Housewarming Live Grill Counters</h3>
+            <p style="color:#D7CFC3; font-size:0.9rem;">
+              Freshly skewered Alfaham Chicken, Pepper BBQ, Chicken Malai Tikka, Paneer Tikka, and Arabian Mixed Family Platters served hot.
+            </p>
+          </div>
+        </div>
+
+        <div class="catering-form-box">
+          <h3>Request a Catering Quote</h3>
+          <form class="form-stack" id="cateringForm">
+            <div class="field-group">
+              <label for="catName">Full Name</label>
+              <input type="text" id="catName" placeholder="Your Name" required />
+            </div>
+            <div class="field-group">
+              <label for="catEvent">Event Occasion</label>
+              <select id="catEvent">
+                <option value="Birthday / Family Party">Birthday / Family Party</option>
+                <option value="Wedding / Reception / Nikah">Wedding / Reception / Nikah</option>
+                <option value="Corporate Event / Office Lunch">Corporate Event / Office Lunch</option>
+                <option value="Housewarming / Get-Together">Housewarming / Get-Together</option>
+              </select>
+            </div>
+            <div class="two-col-inputs">
+              <div class="field-group">
+                <label for="catPax">Guest Count</label>
+                <input type="number" id="catPax" min="15" value="50" required />
+              </div>
+              <div class="field-group">
+                <label for="catDate">Event Date</label>
+                <input type="date" id="catDate" required />
+              </div>
+            </div>
+            <div class="field-group">
+              <label for="catNotes">Preferred Dishes / Combos</label>
+              <textarea id="catNotes" rows="3" placeholder="e.g. Seeraga Samba Mutton Biryani, Chicken 65..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold">Send Enquiry on WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location, Direct Booking & Social Links -->
+  <section id="location" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Visit or Order Online</span>
+        <h2>Location, Booking &amp; Social Channels</h2>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-card">
+          <div>
+            <h3 style="font-family:var(--font-serif); font-size:1.75rem; margin-bottom:4px;">Adam Suvai Zone</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem;">Heritage South Indian Restaurant — T. Nagar</p>
+
+            <ul class="info-list">
+              <li>
+                <strong>Restaurant Address</strong>
+                No. 36, Rangan St, Postal Colony, T. Nagar, Chennai, Tamil Nadu 600017
+              </li>
+              <li>
+                <strong>Direct Landline &amp; Mobile</strong>
+                <a href="tel:04424352299">044 24352299</a> &nbsp;|&nbsp;
+                <a href="tel:+919498033636">94980 33636</a> / <a href="tel:+919498033737">94980 33737</a>
+              </li>
+              <li>
+                <strong>Online Food Delivery &amp; Directions</strong>
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
+                  <a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener" class="btn btn-zomato">Zomato Page</a>
+                  <a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener" class="btn btn-swiggy">Swiggy Page</a>
+                  <a href="https://www.google.com/maps/place/36,+Rangan+St,+Postal+Colony,+T.+Nagar,+Chennai,+Tamil+Nadu+600017/@13.0392886,80.2267661,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266fee0064f47:0x5f1c6ab95cf51978!8m2!3d13.0392886!4d80.229341!16s%2Fg%2F11vx24jcbn?entry=ttu" target="_blank" rel="noopener" class="btn btn-espresso">Google Maps</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <strong style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.14em; color:var(--gold);">Connect With Us</strong>
+            <div class="social-row">
+              <a href="https://www.instagram.com/adamsuvaizone?cnvx=MWUzMjh5M3pxanozYw%3D%3D" target="_blank" rel="noopener" class="social-chip">📸 Instagram</a>
+              <a href="https://www.facebook.com/people/Adams-Suvai/100089157646061/?rdid=pebW6fPmo33eHzij&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1D5Jrv66zs%2F" target="_blank" rel="noopener" class="social-chip">📘 Facebook</a>
+              <a href="https://www.youtube.com/results?search_query=Adams+Suvai+Zone+Chennai" target="_blank" rel="noopener" class="social-chip">▶️ YouTube</a>
+              <a href="https://www.google.com/search?q=Adams+Suvai+Zone+T+Nagar+Chennai" target="_blank" rel="noopener" class="social-chip">📰 Google Blog &amp; Reviews</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-frame">
+          <iframe
+            title="Adam Suvai Zone Location Map - 36 Rangan St, T. Nagar, Chennai"
+            src="https://maps.google.com/maps?q=13.0392886,80.229341&hl=en&z=17&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/logo.svg" alt="Adam Suvai Zone Emblem" />
+            <div>
+              <h3 style="font-family:var(--font-serif); color:#FFFFFF; font-size:1.3rem;">ADAM SUVAI ZONE</h3>
+              <span style="font-size:0.7rem; letter-spacing:0.18em; color:var(--gold-bright);">HERITAGE SOUTH INDIAN</span>
+            </div>
+          </div>
+          <p style="font-size:0.85rem; line-height:1.6;">
+            Authentic South Indian biryanis, coastal seafood, Arabian grills, and party catering in the heart of T. Nagar, Chennai.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#combos">Three Combo Menus</a></li>
+            <li><a href="#menu">Full Restaurant Menu</a></li>
+            <li><a href="#catering">Catering &amp; Party Orders</a></li>
+            <li><a href="#location">Location &amp; Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Order Online</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener">Order on Zomato</a></li>
+            <li><a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener">Order on Swiggy</a></li>
+            <li><a href="https://www.google.com/maps/place/36,+Rangan+St,+Postal+Colony,+T.+Nagar,+Chennai,+Tamil+Nadu+600017/@13.0392886,80.2267661,17z/data=!3m1!4b1!4m6!3m5!1s0x3a5266fee0064f47:0x5f1c6ab95cf51978!8m2!3d13.0392886!4d80.229341!16s%2Fg%2F11vx24jcbn?entry=ttu" target="_blank" rel="noopener">Google Maps Pin</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social &amp; Media</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.instagram.com/adamsuvaizone?cnvx=MWUzMjh5M3pxanozYw%3D%3D" target="_blank" rel="noopener">Instagram (@adamsuvaizone)</a></li>
+            <li><a href="https://www.facebook.com/people/Adams-Suvai/100089157646061/?rdid=pebW6fPmo33eHzij&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1D5Jrv66zs%2F" target="_blank" rel="noopener">Facebook Page</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=Adams+Suvai+Zone+Chennai" target="_blank" rel="noopener">YouTube Channel</a></li>
+            <li><a href="https://www.google.com/search?q=Adams+Suvai+Zone+T+Nagar+Chennai" target="_blank" rel="noopener">Google Blog &amp; Reviews</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Adam Suvai Zone — Heritage South Indian.</span>
+        <span>36, Rangan St, T. Nagar, Chennai • 100% Halal</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Bottom Action Bar -->
+  <div class="mobile-bottom-dock" role="navigation" aria-label="Mobile Quick Actions">
+    <a href="tel:+919498033636" class="dock-btn">
+      <span class="icon">📞</span>
+      <span>Call</span>
+    </a>
+    <a href="https://www.zomato.com/chennai/adams-suvai-zone-1-t-nagar" target="_blank" rel="noopener" class="dock-btn zomato">
+      <span class="icon">🍽️</span>
+      <span>Zomato</span>
+    </a>
+    <a href="https://www.swiggy.com/city/chennai/adams-suvai-zone-rangan-st-t-nagar-rest727678" target="_blank" rel="noopener" class="dock-btn swiggy">
+      <span class="icon">🛵</span>
+      <span>Swiggy</span>
+    </a>
+    <button class="dock-btn gold" onclick="openDrawer()">
+      <span class="icon">🧾 (<span id="dockCartBadge">0</span>)</span>
+      <span>Estimate</span>
+    </button>
+  </div>
+
+  <!-- Slide-over Order / Party Estimate Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop" onclick="closeDrawer()"></div>
+  <aside class="estimate-drawer" id="estimateDrawer" aria-label="Order and Party Estimate">
+    <div>
+      <div style="display:flex; justify-content:space-between; align-items:center; padding-bottom:12px; border-bottom:1px solid var(--border-light);">
+        <h3 style="font-family:var(--font-serif); font-size:1.5rem;">Your Menu Estimate</h3>
+        <button onclick="closeDrawer()" style="background:none; border:none; font-size:1.5rem; min-width:44px; min-height:44px; cursor:pointer;">✕</button>
+      </div>
+      <div class="drawer-items" id="drawerItems">
+        <p style="color:var(--text-muted); font-size:0.9rem;">Your estimate list is empty. Add dishes or combos from the menu to calculate party/order totals.</p>
+      </div>
+    </div>
+
+    <div style="border-top:1px solid var(--border-light); padding-top:14px;">
+      <div style="display:flex; justify-content:space-between; font-weight:700; font-size:1.05rem; margin-bottom:12px;">
+        <span>Estimated Subtotal:</span>
+        <span id="drawerTotal" style="color:var(--crimson);">Rs. 0</span>
+      </div>
+      <button class="btn btn-gold" style="width:100%;" onclick="sendEstimateWhatsApp()">
+        Send Estimate on WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <script src="js/menu-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

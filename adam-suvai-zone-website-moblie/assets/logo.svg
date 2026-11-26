@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <path id="topArc" d="M 62,200 A 138,138 0 1,1 338,200" fill="none"/>
+    <path id="bottomArc" d="M 66,200 A 134,134 0 0,0 334,200" fill="none"/>
+    <radialGradient id="goldGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FCE274"/>
+      <stop offset="65%" stop-color="#E5B822"/>
+      <stop offset="100%" stop-color="#C59B27"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="196" fill="#FFFFFF" stroke="#E5E0D8" stroke-width="2"/>
+  <circle cx="200" cy="200" r="182" fill="url(#goldGrad)"/>
+  <circle cx="200" cy="200" r="114" fill="#161210" stroke="#FFFFFF" stroke-width="3"/>
+  <g fill="#E5B822" opacity="0.95">
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(0 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(22.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(45 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(67.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(90 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(112.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(135 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(157.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(180 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(202.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(225 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(247.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(270 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(292.5 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(315 200 200)"/>
+    <ellipse cx="200" cy="118" rx="11" ry="26" transform="rotate(337.5 200 200)"/>
+  </g>
+  <circle cx="200" cy="200" r="64" fill="#161210" stroke="#E5B822" stroke-width="2.5"/>
+  <text x="200" y="218" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" font-style="italic" fill="#FCE274" letter-spacing="-2">AS</text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="bold" fill="#161210" letter-spacing="4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">ADAM SUVAI ZONE</textPath>
+  </text>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="bold" fill="#161210" letter-spacing="3.5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">HERITAGE SOUTH INDIAN</textPath>
+  </text>
+</svg>
